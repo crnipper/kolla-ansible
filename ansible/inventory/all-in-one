@@ -276,6 +276,9 @@ neutron
 [neutron-bgp-dragent:children]
 neutron
 
+[neutron-sriov-agent:children]
+neutron
+
 # Ceph
 [ceph-mon:children]
 ceph
